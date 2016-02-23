@@ -23,7 +23,9 @@ existing channel, or create a new channel to which messages should be posted. Cl
   
 ## 2. API Server Configuration
 
-Clone this repo and update your apache2 settings (/etc/apache2/sites-enabled/) and add a new WSGIAlias to your vhost.
+Clone this repo and update your apache2 settings (/etc/apache2/sites-enabled/) and add a new WSGIAlias to your vhost. An example vhost configuration is supplied in 000-default.conf
+
+Restart Apache
 
 Copy slackcomments.wsgi to your WSGI scripts folder
 
